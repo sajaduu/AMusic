@@ -1,4 +1,4 @@
-import re
+import  re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
  
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","20036317"))
-API_HASH = getenv("API_HASH","986cb4ba434870a62fe96da3b5f6d411")
+API_ID = int(getenv("API_ID","24300673"))
+API_HASH = getenv("API_HASH","8994ee3191fbd64eba1eb3b9990c169a")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6843293954:AAGo5jLmS-pQCtEFNP8yhGaUXl3cHLQ1S6w")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://abood:king@cluster0.rbp1cqz.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
 
 # Chat id of a group for logging bot s activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("hhhsfjkk"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5145609515))
+OWNER_ID = int(getenv("OWNER_ID", 7055836365))
 
 ## Fill these variables if you re deploying on heroku.
 # Your heroku app name
